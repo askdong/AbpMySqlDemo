@@ -1,0 +1,15 @@
+﻿
+==ok
+Scaffold-DbContext "server=localhost;port=3306;user=root;password=123456;database=SalesBook" "Pomelo.EntityFrameworkCore.MySql" -OutputDir Models -f
+
+==not ok
+Scaffold-DbContext "server=localhost;port=3306;user=root;password=123456;database=SalesBook" MySql.Data.EntityFrameworkCore -OutputDir sakila -f
+
+Pomelo.EntityFrameworkCore.MySql
+Microsoft.EntityFrameworkCore.Design
+
+==20180912
+abptenants  转换成mysql会报错，可能是绑定的问题，增加了CreatorUserId1,DeleterUserId1,LastModifierUserId1 三个字段
+自己生成的实体例基本可用
+
+dotnet ef dbcontext scaffold "Server=localhost;User Id=root;Password=123456;Database=SalesBook" "Pomelo.EntityFrameworkCore.MySql"
