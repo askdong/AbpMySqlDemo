@@ -1,21 +1,18 @@
 ﻿using System;
-using Abp.Zero.EntityFrameworkCore;
+using Abp.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
-using TreeMis.Authorization.Roles;
-using TreeMis.Authorization.Users;
-using TreeMis.MultiTenancy;
 
 namespace TreeMis.Db.MySql.Models
 {
-    public partial class SalesBookContext : AbpZeroDbContext<Tenant, Role, User, SalesBookContext>
+    public partial class SalesBookContext : AbpDbContext//DbContext
     {
-        
+
         public SalesBookContext(DbContextOptions<SalesBookContext> options)
             : base(options)
         {
         }
-        
+
         public virtual DbSet<ReportSalesDaily> ReportSalesDaily { get; set; }
         public virtual DbSet<Shop> Shop { get; set; }
         public virtual DbSet<ShopCart> ShopCart { get; set; }
@@ -32,16 +29,7 @@ namespace TreeMis.Db.MySql.Models
         public virtual DbSet<SysAccount> SysAccount { get; set; }
         public virtual DbSet<SysDict> SysDict { get; set; }
         public virtual DbSet<SysUploadFile> SysUploadFile { get; set; }
-
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            if (!optionsBuilder.IsConfigured)
-            {
-#warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
-                optionsBuilder.UseMySql("server=localhost;port=3306;user=root;password=123456;database=SalesBook");
-            }
-        }
-
+        
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<ReportSalesDaily>(entity =>

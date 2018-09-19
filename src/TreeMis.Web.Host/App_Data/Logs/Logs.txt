@@ -546,3 +546,445 @@ INFO  2018-09-14 08:34:13,154 [7    ] ore.Mvc.Internal.ControllerActionInvoker -
 INFO  2018-09-14 08:34:13,698 [14   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
 INFO  2018-09-14 08:34:13,771 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action TreeMis.Web.Host.Controllers.TestController.demo1 (TreeMis.Web.Core) in 27355.3175ms
 INFO  2018-09-14 08:34:13,786 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 27421.1764ms 200 application/json; charset=utf-8
+DEBUG 2018-09-14 14:16:25,326 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-09-14 14:16:26,011 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-09-14 14:16:26,031 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TreeMis.Web.Host.Startup.TreeMisWebHostModule, TreeMis.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-14 14:16:26,036 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TreeMis.TreeMisWebCoreModule, TreeMis.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-14 14:16:26,036 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TreeMis.TreeMisApplicationModule, TreeMis.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-14 14:16:26,037 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TreeMis.TreeMisCoreModule, TreeMis.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-14 14:16:26,037 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-14 14:16:26,038 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-14 14:16:26,038 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-14 14:16:26,039 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-14 14:16:26,040 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TreeMis.Db.MySql.DbMySqlModule, TreeMis.Db.MySql, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-14 14:16:26,040 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-14 14:16:26,040 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-14 14:16:26,041 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-14 14:16:26,041 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-14 14:16:26,041 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-14 14:16:26,042 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-14 14:16:26,054 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-09-14 14:16:26,327 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-14 14:16:26,327 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-14 14:16:26,327 [1    ] o.Configuration.LanguageManagementConfig - Converted TreeMis (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-14 14:16:26,327 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-14 14:16:53,068 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: TreeMis.Db.MySql.MySqlDemoDbContext, TreeMis.Db.MySql, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-14 14:16:53,212 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: TreeMis.Db.MySql.Models.SalesBookContext, TreeMis.Db.MySql, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-14 14:16:55,403 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-09-14 14:16:55,587 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-09-14 14:16:55,673 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-09-14 14:16:55,743 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: TreeMis
+DEBUG 2018-09-14 14:16:55,837 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-09-14 14:16:56,315 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-09-14 14:16:56,411 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2018-09-14 14:16:56,411 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TreeMis.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-09-14 14:16:56,450 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TreeMis.Users.Dto.CreateUserDto
+DEBUG 2018-09-14 14:16:56,451 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TreeMis.Users.Dto.UserDto
+DEBUG 2018-09-14 14:16:56,451 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TreeMis.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-09-14 14:16:56,451 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TreeMis.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-09-14 14:16:56,451 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TreeMis.Roles.Dto.CreateRoleDto
+DEBUG 2018-09-14 14:16:56,452 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TreeMis.Roles.Dto.PermissionDto
+DEBUG 2018-09-14 14:16:56,452 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TreeMis.Roles.Dto.RoleDto
+DEBUG 2018-09-14 14:16:56,453 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TreeMis.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-09-14 14:16:56,453 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TreeMis.MultiTenancy.Dto.TenantDto
+INFO  2018-09-14 14:17:09,992 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2018-09-14 14:17:26,454 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action TreeMis.Web.Host.Controllers.HomeController.Index (TreeMis.Web.Host)
+INFO  2018-09-14 14:17:28,129 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method TreeMis.Web.Host.Controllers.HomeController.Index (TreeMis.Web.Host) - Validation state: Valid
+INFO  2018-09-14 14:17:28,150 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method TreeMis.Web.Host.Controllers.HomeController.Index (TreeMis.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 4.6723ms.
+INFO  2018-09-14 14:17:28,771 [11   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2018-09-14 14:17:28,798 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action TreeMis.Web.Host.Controllers.HomeController.Index (TreeMis.Web.Host) in 2332.3515ms
+INFO  2018-09-14 14:17:28,984 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 18999.1621ms 302 
+INFO  2018-09-14 14:17:29,036 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2018-09-14 14:17:29,138 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 101.7118ms 200 text/html
+INFO  2018-09-14 14:17:29,286 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2018-09-14 14:17:29,289 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2018-09-14 14:17:29,292 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2018-09-14 14:17:29,506 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-standalone-preset.js was not modified
+INFO  2018-09-14 14:17:29,564 [13   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-bundle.js was not modified
+INFO  2018-09-14 14:17:29,578 [3    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui.css was not modified
+INFO  2018-09-14 14:17:29,586 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 246.7934ms 304 application/javascript
+INFO  2018-09-14 14:17:29,602 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 300.4832ms 304 text/css
+INFO  2018-09-14 14:17:29,644 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 277.542ms 304 application/javascript
+INFO  2018-09-14 14:17:31,290 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2018-09-14 14:17:32,544 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1253.8888ms 200 application/json;charset=utf-8
+INFO  2018-09-14 14:17:55,963 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2018-09-14 14:17:56,059 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetCurrentLoginInformations", controller = "Session"}. Executing action TreeMis.Sessions.SessionAppService.GetCurrentLoginInformations (TreeMis.Application)
+INFO  2018-09-14 14:17:56,760 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method TreeMis.Sessions.SessionAppService.GetCurrentLoginInformations (TreeMis.Application) - Validation state: Valid
+INFO  2018-09-14 14:17:56,814 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method TreeMis.Sessions.SessionAppService.GetCurrentLoginInformations (TreeMis.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 51.5638ms.
+INFO  2018-09-14 14:17:56,857 [6    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-09-14 14:17:56,896 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action TreeMis.Sessions.SessionAppService.GetCurrentLoginInformations (TreeMis.Application) in 833.4808ms
+INFO  2018-09-14 14:17:56,900 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 940.93ms 200 application/json; charset=utf-8
+INFO  2018-09-14 14:18:22,270 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/Test/demo2  
+INFO  2018-09-14 14:18:22,281 [3    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "demo2", controller = "Test", area = ""}. Executing action TreeMis.Web.Host.Controllers.TestController.demo2 (TreeMis.Web.Core)
+INFO  2018-09-14 14:18:36,886 [3    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method TreeMis.Web.Host.Controllers.TestController.demo2 (TreeMis.Web.Core) - Validation state: Valid
+INFO  2018-09-14 14:18:36,893 [3    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method TreeMis.Web.Host.Controllers.TestController.demo2 (TreeMis.Web.Core), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2.2734ms.
+INFO  2018-09-14 14:18:36,965 [17   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-09-14 14:18:36,969 [17   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action TreeMis.Web.Host.Controllers.TestController.demo2 (TreeMis.Web.Core) in 14684.9418ms
+INFO  2018-09-14 14:18:36,973 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 14702.5939ms 200 application/json; charset=utf-8
+INFO  2018-09-14 14:19:20,003 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/Test/demo1  
+INFO  2018-09-14 14:19:20,013 [19   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "demo1", controller = "Test", area = ""}. Executing action TreeMis.Web.Host.Controllers.TestController.demo1 (TreeMis.Web.Core)
+INFO  2018-09-14 14:19:22,810 [19   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method TreeMis.Web.Host.Controllers.TestController.demo1 (TreeMis.Web.Core) - Validation state: Valid
+INFO  2018-09-14 14:19:26,904 [19   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method TreeMis.Web.Host.Controllers.TestController.demo1 (TreeMis.Web.Core), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 4090.5598ms.
+INFO  2018-09-14 14:19:26,994 [22   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-09-14 14:19:27,026 [22   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action TreeMis.Web.Host.Controllers.TestController.demo1 (TreeMis.Web.Core) in 7010.3957ms
+INFO  2018-09-14 14:19:27,030 [22   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 7027.9853ms 200 application/json; charset=utf-8
+DEBUG 2018-09-14 15:26:08,568 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-09-14 15:26:08,830 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-09-14 15:26:08,871 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TreeMis.Web.Host.Startup.TreeMisWebHostModule, TreeMis.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-14 15:26:08,877 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TreeMis.TreeMisWebCoreModule, TreeMis.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-14 15:26:08,877 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TreeMis.TreeMisApplicationModule, TreeMis.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-14 15:26:08,878 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TreeMis.TreeMisCoreModule, TreeMis.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-14 15:26:08,878 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-14 15:26:08,879 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-14 15:26:08,879 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-14 15:26:08,880 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-14 15:26:08,881 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TreeMis.Db.MySql.DbMySqlModule, TreeMis.Db.MySql, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-14 15:26:08,881 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-14 15:26:08,882 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-14 15:26:08,882 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-14 15:26:08,883 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-14 15:26:08,883 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-14 15:26:08,884 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-14 15:26:08,889 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-09-14 15:26:09,039 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-14 15:26:09,039 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-14 15:26:09,039 [1    ] o.Configuration.LanguageManagementConfig - Converted TreeMis (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-14 15:26:09,039 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-14 15:26:24,178 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: TreeMis.Db.MySql.MySqlDemoDbContext, TreeMis.Db.MySql, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-14 15:26:24,502 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: TreeMis.Db.MySql.Models.SalesBookContext, TreeMis.Db.MySql, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-14 15:26:26,375 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-09-14 15:26:26,531 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-09-14 15:26:26,631 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-09-14 15:26:26,677 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: TreeMis
+DEBUG 2018-09-14 15:26:26,746 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-09-14 15:26:27,072 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-09-14 15:26:27,177 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2018-09-14 15:26:27,177 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TreeMis.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-09-14 15:26:27,193 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TreeMis.Users.Dto.CreateUserDto
+DEBUG 2018-09-14 15:26:27,194 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TreeMis.Users.Dto.UserDto
+DEBUG 2018-09-14 15:26:27,195 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TreeMis.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-09-14 15:26:27,195 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TreeMis.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-09-14 15:26:27,196 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TreeMis.Roles.Dto.CreateRoleDto
+DEBUG 2018-09-14 15:26:27,196 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TreeMis.Roles.Dto.PermissionDto
+DEBUG 2018-09-14 15:26:27,196 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TreeMis.Roles.Dto.RoleDto
+DEBUG 2018-09-14 15:26:27,197 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TreeMis.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-09-14 15:26:27,198 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TreeMis.MultiTenancy.Dto.TenantDto
+INFO  2018-09-14 15:26:38,217 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2018-09-14 15:26:53,046 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action TreeMis.Web.Host.Controllers.HomeController.Index (TreeMis.Web.Host)
+INFO  2018-09-14 15:26:54,832 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method TreeMis.Web.Host.Controllers.HomeController.Index (TreeMis.Web.Host) - Validation state: Valid
+INFO  2018-09-14 15:26:54,842 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method TreeMis.Web.Host.Controllers.HomeController.Index (TreeMis.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 3.8675ms.
+INFO  2018-09-14 15:26:55,285 [10   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2018-09-14 15:26:55,314 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action TreeMis.Web.Host.Controllers.HomeController.Index (TreeMis.Web.Host) in 2256.3601ms
+INFO  2018-09-14 15:26:55,477 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 17285.6223ms 302 
+INFO  2018-09-14 15:26:55,484 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2018-09-14 15:26:55,583 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 98.2632ms 200 text/html
+INFO  2018-09-14 15:26:55,660 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2018-09-14 15:26:55,662 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2018-09-14 15:26:55,688 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2018-09-14 15:26:55,739 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui.css was not modified
+INFO  2018-09-14 15:26:55,742 [9    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-bundle.js was not modified
+INFO  2018-09-14 15:26:55,750 [12   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-standalone-preset.js was not modified
+INFO  2018-09-14 15:26:55,860 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 129.6071ms 304 application/javascript
+INFO  2018-09-14 15:26:55,952 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 136.8491ms 304 text/css
+INFO  2018-09-14 15:26:55,955 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 136.432ms 304 application/javascript
+INFO  2018-09-14 15:26:56,769 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2018-09-14 15:26:57,403 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 814.8153ms 200 application/json;charset=utf-8
+INFO  2018-09-14 15:27:28,319 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/Test/demo1  
+INFO  2018-09-14 15:27:28,381 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "demo1", controller = "Test", area = ""}. Executing action TreeMis.Web.Host.Controllers.TestController.demo1 (TreeMis.Web.Core)
+WARN  2018-09-14 15:27:30,253 [12   ] Mvc.Authorization.AbpAuthorizationFilter - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(IEnumerable`1 authorizeAttributes) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 43
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 98
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 57
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Authorization\AbpAuthorizationFilter.cs:line 53
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(IEnumerable`1 authorizeAttributes) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 43
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 98
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 57
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Authorization\AbpAuthorizationFilter.cs:line 53
+INFO  2018-09-14 15:27:30,277 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter'.
+INFO  2018-09-14 15:27:30,340 [12   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-09-14 15:27:30,376 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action TreeMis.Web.Host.Controllers.TestController.demo1 (TreeMis.Web.Core) in 1992.8424ms
+INFO  2018-09-14 15:27:30,380 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2065.2663ms 401 application/json; charset=utf-8
+DEBUG 2018-09-19 14:56:08,100 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-09-19 14:56:08,858 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-09-19 14:56:08,889 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TreeMis.Web.Host.Startup.TreeMisWebHostModule, TreeMis.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-19 14:56:08,895 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TreeMis.TreeMisWebCoreModule, TreeMis.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-19 14:56:08,896 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TreeMis.TreeMisApplicationModule, TreeMis.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-19 14:56:08,896 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TreeMis.TreeMisCoreModule, TreeMis.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-19 14:56:08,897 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-19 14:56:08,898 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-19 14:56:08,898 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-19 14:56:08,899 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-19 14:56:08,900 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TreeMis.Db.MySql.DbMySqlModule, TreeMis.Db.MySql, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-19 14:56:09,252 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-19 14:56:09,252 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-19 14:56:09,252 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-19 14:56:09,253 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-19 14:56:09,253 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-19 14:56:09,254 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-19 14:56:09,261 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-09-19 14:56:09,636 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-19 14:56:09,636 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-19 14:56:09,636 [1    ] o.Configuration.LanguageManagementConfig - Converted TreeMis (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-19 14:56:09,636 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-19 14:56:21,437 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: TreeMis.Db.MySql.MySqlDemoDbContext, TreeMis.Db.MySql, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-19 14:56:22,846 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-09-19 14:56:22,975 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-09-19 14:56:23,057 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-09-19 14:56:23,085 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: TreeMis
+DEBUG 2018-09-19 14:56:23,126 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-09-19 14:56:23,387 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-09-19 14:56:23,480 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2018-09-19 14:56:23,480 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TreeMis.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-09-19 14:56:23,488 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TreeMis.Users.Dto.CreateUserDto
+DEBUG 2018-09-19 14:56:23,489 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TreeMis.Users.Dto.UserDto
+DEBUG 2018-09-19 14:56:23,490 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TreeMis.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-09-19 14:56:23,490 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TreeMis.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-09-19 14:56:23,490 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TreeMis.Roles.Dto.CreateRoleDto
+DEBUG 2018-09-19 14:56:23,490 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TreeMis.Roles.Dto.PermissionDto
+DEBUG 2018-09-19 14:56:23,490 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TreeMis.Roles.Dto.RoleDto
+DEBUG 2018-09-19 14:56:23,491 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TreeMis.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-09-19 14:56:23,491 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TreeMis.MultiTenancy.Dto.TenantDto
+INFO  2018-09-19 14:56:33,926 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2018-09-19 14:56:45,701 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action TreeMis.Web.Host.Controllers.HomeController.Index (TreeMis.Web.Host)
+INFO  2018-09-19 14:56:47,054 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method TreeMis.Web.Host.Controllers.HomeController.Index (TreeMis.Web.Host) - Validation state: Valid
+INFO  2018-09-19 14:56:47,061 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method TreeMis.Web.Host.Controllers.HomeController.Index (TreeMis.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 2.7851ms.
+INFO  2018-09-19 14:56:47,579 [3    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2018-09-19 14:56:47,607 [3    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action TreeMis.Web.Host.Controllers.HomeController.Index (TreeMis.Web.Host) in 1898.0923ms
+INFO  2018-09-19 14:56:47,711 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 13800.9954ms 302 
+INFO  2018-09-19 14:56:47,740 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2018-09-19 14:56:47,811 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 71.1082ms 200 text/html
+INFO  2018-09-19 14:56:47,917 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2018-09-19 14:56:47,920 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2018-09-19 14:56:47,929 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2018-09-19 14:56:47,934 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2018-09-19 14:56:47,936 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2018-09-19 14:56:47,989 [7    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger/ui/abp.swagger.js was not modified
+INFO  2018-09-19 14:56:47,990 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-bundle.js was not modified
+INFO  2018-09-19 14:56:48,007 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui.css was not modified
+INFO  2018-09-19 14:56:48,009 [12   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger/ui/abp.js was not modified
+INFO  2018-09-19 14:56:48,012 [4    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-standalone-preset.js was not modified
+INFO  2018-09-19 14:56:48,020 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 93.7522ms 304 application/javascript
+INFO  2018-09-19 14:56:48,022 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 91.6034ms 304 application/javascript
+INFO  2018-09-19 14:56:48,025 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 93.6174ms 304 application/javascript
+INFO  2018-09-19 14:56:48,027 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 117.7725ms 304 application/javascript
+INFO  2018-09-19 14:56:48,031 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 117.9162ms 304 text/css
+INFO  2018-09-19 14:56:48,646 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2018-09-19 14:56:49,075 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 433.8134ms 200 application/json;charset=utf-8
+INFO  2018-09-19 14:56:50,448 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/favicon-32x32.png  
+INFO  2018-09-19 14:56:50,486 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+INFO  2018-09-19 14:56:50,492 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 43.6155ms 200 image/png
+INFO  2018-09-19 14:56:50,542 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/favicon-16x16.png  
+INFO  2018-09-19 14:56:50,553 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+INFO  2018-09-19 14:56:50,555 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 14.8837ms 200 image/png
+INFO  2018-09-19 14:57:03,688 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/Test/demo1  
+INFO  2018-09-19 14:57:03,722 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "demo1", controller = "Test", area = ""}. Executing action TreeMis.Web.Host.Controllers.TestController.demo1 (TreeMis.Web.Core)
+ERROR 2018-09-19 14:57:03,821 [7    ] Mvc.ExceptionHandling.AbpExceptionFilter - Can't create component 'TreeMis.Web.Host.Controllers.TestController' as it has dependencies to be satisfied.
+
+'TreeMis.Web.Host.Controllers.TestController' is waiting for the following dependencies:
+- Service 'TreeMis.Db.MySql.Models.SalesBookContext' which was not registered.
+
+Castle.MicroKernel.Handlers.HandlerException: Can't create component 'TreeMis.Web.Host.Controllers.TestController' as it has dependencies to be satisfied.
+
+'TreeMis.Web.Host.Controllers.TestController' is waiting for the following dependencies:
+- Service 'TreeMis.Db.MySql.Models.SalesBookContext' which was not registered.
+
+   at Castle.MicroKernel.Handlers.DefaultHandler.AssertNotWaitingForDependency()
+   at Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   at Castle.MicroKernel.Handlers.DefaultHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   at Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, IDictionary additionalArguments, IReleasePolicy policy)
+   at Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, IDictionary arguments, IReleasePolicy policy)
+   at Castle.Windsor.MsDependencyInjection.ScopedWindsorServiceProvider.GetServiceInternal(Type serviceType, Boolean isOptional) in D:\Github\castle-windsor-ms-adapter\src\Castle.Windsor.MsDependencyInjection\ScopedWindsorServiceProvider.cs:line 55
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+INFO  2018-09-19 14:57:04,406 [7    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-09-19 14:57:04,454 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action TreeMis.Web.Host.Controllers.TestController.demo1 (TreeMis.Web.Core) in 727.7855ms
+INFO  2018-09-19 14:57:04,457 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 768.398ms 500 application/json; charset=utf-8
+INFO  2018-09-19 14:57:39,447 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/Test/demo1  
+INFO  2018-09-19 14:57:39,460 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "demo1", controller = "Test", area = ""}. Executing action TreeMis.Web.Host.Controllers.TestController.demo1 (TreeMis.Web.Core)
+ERROR 2018-09-19 14:57:39,533 [14   ] Mvc.ExceptionHandling.AbpExceptionFilter - Can't create component 'TreeMis.Web.Host.Controllers.TestController' as it has dependencies to be satisfied.
+
+'TreeMis.Web.Host.Controllers.TestController' is waiting for the following dependencies:
+- Service 'TreeMis.Db.MySql.Models.SalesBookContext' which was not registered.
+
+Castle.MicroKernel.Handlers.HandlerException: Can't create component 'TreeMis.Web.Host.Controllers.TestController' as it has dependencies to be satisfied.
+
+'TreeMis.Web.Host.Controllers.TestController' is waiting for the following dependencies:
+- Service 'TreeMis.Db.MySql.Models.SalesBookContext' which was not registered.
+
+   at Castle.MicroKernel.Handlers.DefaultHandler.AssertNotWaitingForDependency()
+   at Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   at Castle.MicroKernel.Handlers.DefaultHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   at Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, IDictionary additionalArguments, IReleasePolicy policy)
+   at Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, IDictionary arguments, IReleasePolicy policy)
+   at Castle.Windsor.MsDependencyInjection.ScopedWindsorServiceProvider.GetServiceInternal(Type serviceType, Boolean isOptional) in D:\Github\castle-windsor-ms-adapter\src\Castle.Windsor.MsDependencyInjection\ScopedWindsorServiceProvider.cs:line 55
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+INFO  2018-09-19 14:57:39,537 [14   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-09-19 14:57:39,563 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action TreeMis.Web.Host.Controllers.TestController.demo1 (TreeMis.Web.Core) in 77.8813ms
+INFO  2018-09-19 14:57:39,569 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 123.063ms 500 application/json; charset=utf-8
+INFO  2018-09-19 14:57:47,926 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/Test/demo2  
+INFO  2018-09-19 14:57:47,933 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "demo2", controller = "Test", area = ""}. Executing action TreeMis.Web.Host.Controllers.TestController.demo2 (TreeMis.Web.Core)
+ERROR 2018-09-19 14:57:48,009 [7    ] Mvc.ExceptionHandling.AbpExceptionFilter - Can't create component 'TreeMis.Web.Host.Controllers.TestController' as it has dependencies to be satisfied.
+
+'TreeMis.Web.Host.Controllers.TestController' is waiting for the following dependencies:
+- Service 'TreeMis.Db.MySql.Models.SalesBookContext' which was not registered.
+
+Castle.MicroKernel.Handlers.HandlerException: Can't create component 'TreeMis.Web.Host.Controllers.TestController' as it has dependencies to be satisfied.
+
+'TreeMis.Web.Host.Controllers.TestController' is waiting for the following dependencies:
+- Service 'TreeMis.Db.MySql.Models.SalesBookContext' which was not registered.
+
+   at Castle.MicroKernel.Handlers.DefaultHandler.AssertNotWaitingForDependency()
+   at Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   at Castle.MicroKernel.Handlers.DefaultHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   at Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, IDictionary additionalArguments, IReleasePolicy policy)
+   at Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, IDictionary arguments, IReleasePolicy policy)
+   at Castle.Windsor.MsDependencyInjection.ScopedWindsorServiceProvider.GetServiceInternal(Type serviceType, Boolean isOptional) in D:\Github\castle-windsor-ms-adapter\src\Castle.Windsor.MsDependencyInjection\ScopedWindsorServiceProvider.cs:line 55
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+INFO  2018-09-19 14:57:48,013 [7    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-09-19 14:57:48,016 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action TreeMis.Web.Host.Controllers.TestController.demo2 (TreeMis.Web.Core) in 79.3509ms
+INFO  2018-09-19 14:57:48,020 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 92.4879ms 500 application/json; charset=utf-8
+DEBUG 2018-09-19 14:59:51,187 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-09-19 14:59:51,327 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-09-19 14:59:51,357 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TreeMis.Web.Host.Startup.TreeMisWebHostModule, TreeMis.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-19 14:59:51,361 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TreeMis.TreeMisWebCoreModule, TreeMis.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-19 14:59:51,362 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TreeMis.TreeMisApplicationModule, TreeMis.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-19 14:59:51,363 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TreeMis.TreeMisCoreModule, TreeMis.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-19 14:59:51,364 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-19 14:59:51,364 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-19 14:59:51,365 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-19 14:59:51,367 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-19 14:59:51,367 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TreeMis.Db.MySql.DbMySqlModule, TreeMis.Db.MySql, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-19 14:59:51,368 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-19 14:59:51,368 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-19 14:59:51,368 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-19 14:59:51,369 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-19 14:59:51,369 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-19 14:59:51,370 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-19 14:59:51,374 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-09-19 14:59:51,477 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-19 14:59:51,477 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-19 14:59:51,477 [1    ] o.Configuration.LanguageManagementConfig - Converted TreeMis (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-19 14:59:51,477 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-19 15:00:07,108 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: TreeMis.Db.MySql.MySqlDemoDbContext, TreeMis.Db.MySql, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-19 15:00:07,215 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: TreeMis.Db.MySql.Models.SalesBookContext, TreeMis.Db.MySql, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-19 15:00:08,225 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-09-19 15:00:08,296 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-09-19 15:00:08,356 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-09-19 15:00:08,383 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: TreeMis
+DEBUG 2018-09-19 15:00:08,436 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-09-19 15:00:08,635 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-09-19 15:00:08,704 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2018-09-19 15:00:08,704 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TreeMis.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-09-19 15:00:08,717 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TreeMis.Users.Dto.CreateUserDto
+DEBUG 2018-09-19 15:00:08,719 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TreeMis.Users.Dto.UserDto
+DEBUG 2018-09-19 15:00:08,719 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TreeMis.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-09-19 15:00:08,720 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TreeMis.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-09-19 15:00:08,720 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TreeMis.Roles.Dto.CreateRoleDto
+DEBUG 2018-09-19 15:00:08,720 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TreeMis.Roles.Dto.PermissionDto
+DEBUG 2018-09-19 15:00:08,720 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TreeMis.Roles.Dto.RoleDto
+DEBUG 2018-09-19 15:00:08,722 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TreeMis.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-09-19 15:00:08,722 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TreeMis.MultiTenancy.Dto.TenantDto
+INFO  2018-09-19 15:00:16,075 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2018-09-19 15:00:26,558 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action TreeMis.Web.Host.Controllers.HomeController.Index (TreeMis.Web.Host)
+INFO  2018-09-19 15:00:28,106 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method TreeMis.Web.Host.Controllers.HomeController.Index (TreeMis.Web.Host) - Validation state: Valid
+INFO  2018-09-19 15:00:28,114 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method TreeMis.Web.Host.Controllers.HomeController.Index (TreeMis.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 2.4964ms.
+INFO  2018-09-19 15:00:28,583 [3    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2018-09-19 15:00:28,605 [3    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action TreeMis.Web.Host.Controllers.HomeController.Index (TreeMis.Web.Host) in 2038.2821ms
+INFO  2018-09-19 15:00:28,690 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 12631.9917ms 302 
+INFO  2018-09-19 15:00:28,699 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2018-09-19 15:00:28,751 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 51.5554ms 200 text/html
+INFO  2018-09-19 15:00:28,821 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2018-09-19 15:00:28,823 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2018-09-19 15:00:28,825 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2018-09-19 15:00:28,864 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-standalone-preset.js was not modified
+INFO  2018-09-19 15:00:28,867 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui.css was not modified
+INFO  2018-09-19 15:00:28,869 [12   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-bundle.js was not modified
+INFO  2018-09-19 15:00:28,897 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 55.7509ms 304 application/javascript
+INFO  2018-09-19 15:00:28,899 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 55.75ms 304 text/css
+INFO  2018-09-19 15:00:28,909 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 58.1409ms 304 application/javascript
+INFO  2018-09-19 15:00:29,283 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2018-09-19 15:00:29,749 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 479.17ms 200 application/json;charset=utf-8
+INFO  2018-09-19 15:00:38,181 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/Test/demo1  
+INFO  2018-09-19 15:00:38,206 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "demo1", controller = "Test", area = ""}. Executing action TreeMis.Web.Host.Controllers.TestController.demo1 (TreeMis.Web.Core)
+INFO  2018-09-19 15:01:00,848 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method TreeMis.Web.Host.Controllers.TestController.demo1 (TreeMis.Web.Core) - Validation state: Valid
+INFO  2018-09-19 15:01:19,038 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method TreeMis.Web.Host.Controllers.TestController.demo1 (TreeMis.Web.Core), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 18186.4473ms.
+INFO  2018-09-19 15:01:19,211 [3    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-09-19 15:01:19,239 [3    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action TreeMis.Web.Host.Controllers.TestController.demo1 (TreeMis.Web.Core) in 41030.8717ms
+INFO  2018-09-19 15:01:19,245 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 41064.0402ms 200 application/json; charset=utf-8
+DEBUG 2018-09-19 15:15:26,750 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-09-19 15:15:26,884 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-09-19 15:15:26,905 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TreeMis.Web.Host.Startup.TreeMisWebHostModule, TreeMis.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-19 15:15:26,909 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TreeMis.TreeMisWebCoreModule, TreeMis.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-19 15:15:26,910 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TreeMis.TreeMisApplicationModule, TreeMis.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-19 15:15:26,910 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TreeMis.TreeMisCoreModule, TreeMis.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-19 15:15:26,911 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-19 15:15:26,911 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-19 15:15:26,912 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-19 15:15:26,912 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-19 15:15:26,913 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TreeMis.Db.MySql.DbMySqlModule, TreeMis.Db.MySql, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-19 15:15:26,913 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-19 15:15:26,913 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-19 15:15:26,913 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-19 15:15:26,914 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-19 15:15:26,914 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-19 15:15:26,914 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-19 15:15:26,918 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-09-19 15:15:27,023 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-19 15:15:27,023 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-19 15:15:27,023 [1    ] o.Configuration.LanguageManagementConfig - Converted TreeMis (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-19 15:15:27,023 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-19 15:15:34,116 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: TreeMis.Db.MySql.MySqlDemoDbContext, TreeMis.Db.MySql, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-19 15:15:34,226 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: TreeMis.Db.MySql.Models.SalesBookContext, TreeMis.Db.MySql, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-19 15:15:35,333 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-09-19 15:15:35,422 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-09-19 15:15:35,501 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-09-19 15:15:35,529 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: TreeMis
+DEBUG 2018-09-19 15:15:35,575 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-09-19 15:15:35,828 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-09-19 15:15:35,937 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2018-09-19 15:15:35,937 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TreeMis.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-09-19 15:15:35,951 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TreeMis.Users.Dto.CreateUserDto
+DEBUG 2018-09-19 15:15:35,952 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TreeMis.Users.Dto.UserDto
+DEBUG 2018-09-19 15:15:35,953 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TreeMis.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-09-19 15:15:35,954 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TreeMis.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-09-19 15:15:35,954 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TreeMis.Roles.Dto.CreateRoleDto
+DEBUG 2018-09-19 15:15:35,954 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TreeMis.Roles.Dto.PermissionDto
+DEBUG 2018-09-19 15:15:35,954 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TreeMis.Roles.Dto.RoleDto
+DEBUG 2018-09-19 15:15:35,956 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TreeMis.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-09-19 15:15:35,956 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TreeMis.MultiTenancy.Dto.TenantDto
+INFO  2018-09-19 15:15:43,157 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2018-09-19 15:15:53,691 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action TreeMis.Web.Host.Controllers.HomeController.Index (TreeMis.Web.Host)
+INFO  2018-09-19 15:15:55,000 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method TreeMis.Web.Host.Controllers.HomeController.Index (TreeMis.Web.Host) - Validation state: Valid
+INFO  2018-09-19 15:15:55,010 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method TreeMis.Web.Host.Controllers.HomeController.Index (TreeMis.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 2.9232ms.
+INFO  2018-09-19 15:15:55,385 [6    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2018-09-19 15:15:55,412 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action TreeMis.Web.Host.Controllers.HomeController.Index (TreeMis.Web.Host) in 1707.5753ms
+INFO  2018-09-19 15:15:55,511 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 12360.4392ms 302 
+INFO  2018-09-19 15:15:55,515 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2018-09-19 15:15:55,563 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 48.3349ms 200 text/html
+INFO  2018-09-19 15:15:55,610 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2018-09-19 15:15:55,613 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2018-09-19 15:15:55,620 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2018-09-19 15:15:55,662 [7    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui.css was not modified
+INFO  2018-09-19 15:15:55,663 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-standalone-preset.js was not modified
+INFO  2018-09-19 15:15:55,665 [4    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-bundle.js was not modified
+INFO  2018-09-19 15:15:55,679 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 63.9684ms 304 application/javascript
+INFO  2018-09-19 15:15:55,683 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 78.3343ms 304 text/css
+INFO  2018-09-19 15:15:55,689 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 62.6145ms 304 application/javascript
+INFO  2018-09-19 15:15:56,039 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2018-09-19 15:15:56,405 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 368.4654ms 200 application/json;charset=utf-8
+INFO  2018-09-19 15:30:51,065 [34   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/Test/demo1  
+INFO  2018-09-19 15:30:51,087 [34   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "demo1", controller = "Test", area = ""}. Executing action TreeMis.Web.Host.Controllers.TestController.demo1 (TreeMis.Web.Core)
+INFO  2018-09-19 15:31:20,360 [34   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method TreeMis.Web.Host.Controllers.TestController.demo1 (TreeMis.Web.Core) - Validation state: Valid
+INFO  2018-09-19 15:31:32,433 [34   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method TreeMis.Web.Host.Controllers.TestController.demo1 (TreeMis.Web.Core), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 12069.8943ms.
+INFO  2018-09-19 15:31:32,611 [36   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-09-19 15:31:32,670 [36   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action TreeMis.Web.Host.Controllers.TestController.demo1 (TreeMis.Web.Core) in 41581.4967ms
+INFO  2018-09-19 15:31:32,683 [36   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 41646.3879ms 200 application/json; charset=utf-8

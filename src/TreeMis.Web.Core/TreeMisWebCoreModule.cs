@@ -17,6 +17,7 @@ using Microsoft.EntityFrameworkCore;
 
 using TreeMis.Web;
 using Castle.MicroKernel.Registration;
+using TreeMis.Db.MySql.Models;
 
 namespace TreeMis
 {
@@ -63,16 +64,30 @@ namespace TreeMis
 
             var builder = new DbContextOptionsBuilder<MySqlDemoDbContext>();
 
+            //sys db
             var configuration = AppConfigurations.Get(WebContentDirectoryFinder.CalculateContentRootFolder());
-
-            MySqlDemoDbContextConfigurer.Configure(builder, configuration.GetConnectionString("Default"/**TreeMisConsts.ConnectionStringName**/));
+            
+            //TreeMisConsts.ConnectionStringName
+            MySqlDemoDbContextConfigurer.Configure(builder, configuration.GetConnectionString("Default"));
             
             IocManager.IocContainer.Register(
                Component
                    .For<DbContextOptions<MySqlDemoDbContext>>()
                    .Instance(builder.Options)
                    .LifestyleSingleton()
-                   );
+            );
+            
+            //salesbook db
+            var builder2 = new DbContextOptionsBuilder<SalesBookContext>();
+
+            SalesBookContextConfigurer.Configure(builder2, configuration.GetConnectionString("salesbook"));
+
+            IocManager.IocContainer.Register(
+                Component
+                    .For<DbContextOptions<SalesBookContext>>()
+                    .Instance(builder2.Options)
+                    .LifestyleSingleton()
+            );
             
         }
 

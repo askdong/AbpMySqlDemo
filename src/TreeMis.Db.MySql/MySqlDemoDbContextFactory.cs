@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.Extensions.Configuration;
 using TreeMis.Configuration;
-using TreeMis.Db.MySql.Models;
+
 using TreeMis.Web;
 
 namespace TreeMis.Db.MySql

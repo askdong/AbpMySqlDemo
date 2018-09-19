@@ -15,13 +15,13 @@ namespace TreeMis.Web.Host.Controllers
     [Route("api/[controller]/[action]")]
     public class TestController : TreeMisControllerBase
     {   
-        private readonly MySqlDemoDbContext _ctx;
+        private readonly SalesBookContext _ctx;
 
-        public TestController(MySqlDemoDbContext _dbContext) {
+        public TestController(SalesBookContext _dbContext) {
 
             _ctx = _dbContext;
         }
-       
+
         //[AbpAuthorize("Administration.UserManagement.CreateUser")]
         [HttpGet]
         public List<ShopProduct> demo1() {

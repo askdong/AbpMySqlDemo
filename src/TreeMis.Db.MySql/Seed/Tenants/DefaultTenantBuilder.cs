@@ -4,7 +4,6 @@ using Abp.MultiTenancy;
 
 using TreeMis.MultiTenancy;
 using TreeMis.Editions;
-using TreeMis.Db.MySql.Models;
 
 namespace TreeMis.Db.MySql.Seed.Tenants
 {
@@ -26,7 +25,7 @@ namespace TreeMis.Db.MySql.Seed.Tenants
         {
             // Default tenant
 
-            var shops = _context.Shop.ToList<Shop>();
+            //var shops = _context.Shop.ToList<Shop>();
 
             var list1= _context.Tenants.Where(u => u.IsActive == true).ToList();
             
